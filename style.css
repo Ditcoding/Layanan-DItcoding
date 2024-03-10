@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+/* Navbar */
+.main-nav .navbar-brand {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+.main-nav {
+  background-color: #4b525f;
+}
+
+.main-nav .navbar-nav a.nav-link {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.main-nav .navbar-nav .nav-link.active,
+.main-nav .navbar-nav .nav-link:hover {
+  color: #ffbb00;
+}
+
+span {
+  color: #ffbb00;
+}
+
+.main-bg {
+  background-color: #4b525f;
+  color: white;
+}
+
+.navbar.scrolled {
+  background-color: #687182;
+  transition: background-color 0.5s ease;
+  box-shadow: 0px -10px 30px #272a31;
+}
+
+/* kolaborasi */
+#kolaborasi img {
+  max-height: 70px;
+  max-width: 150px;
+}
+
+#kolaborasi a {
+  display: inline-block;
+  word-spacing: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* Upgrade */
+.main-color {
+  background-color: #bdcae3;
+}
+
+.atas-judul{
+  color: #4b525f;
+  font-size: 23px;
+  font-weight: 700;
+}
