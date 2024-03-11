@@ -9,7 +9,7 @@
   font-size: 30px;
 }
 .main-nav {
-  background-color: #4e5562;
+  background-color: #4b525f;
 }
 
 .main-nav .navbar-nav a.nav-link {
@@ -28,7 +28,7 @@ span {
 }
 
 .main-bg {
-  background-color: #3c414b;
+  background-color: #25292f;
   color: white;
   padding-top: 50px;
 }
