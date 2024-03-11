@@ -40,6 +40,10 @@ span {
 }
 
 /* kolaborasi */
+
+#kolaborasi {
+  background-color: #e3e3e3;
+}
 #kolaborasi img {
   max-height: 70px;
   max-width: 150px;
@@ -54,7 +58,7 @@ span {
 
 /* Upgrade */
 .main-color {
-  background-color: #b5c0d7;
+  background-color: #d8e2f7;
 }
 
 .atas-judul {
