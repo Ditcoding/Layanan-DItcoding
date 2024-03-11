@@ -66,3 +66,48 @@ span {
   font-size: 23px;
   font-weight: 700;
 }
+
+/* Kepercayaan */
+#kepercayaan {
+  background-color: #383c45;
+  color: wheat;
+}
+
+/* blog */
+#blog {
+  background-color: #afbacd;
+}
+
+/* blog */
+.main-blog-info img {
+  width: 50px;
+  border-radius: 50%;
+  float: left;
+}
+
+.main-blog-info {
+  position: relative;
+  color: #666;
+}
+
+#blog a {
+  text-decoration: none;
+  color: #666;
+}
+
+.main-blog-info a {
+  padding-right: 15px;
+}
+
+.main-blog-info a:hover {
+  color: #ffbb00;
+}
+
+#blog .main-blog-info span {
+  font-size: 13px;
+  padding-left: 15px;
+}
+
+#blog a:hover {
+  color: #ffbb00;
+}
