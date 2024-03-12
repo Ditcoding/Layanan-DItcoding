@@ -9,12 +9,12 @@
   font-size: 30px;
 }
 .main-nav {
-  background-color: #4b525f;
+  background-color: #25292f;
 }
 
 .main-nav .navbar-nav a.nav-link {
   color: rgb(255, 255, 255);
-  font-weight: bold;
+  font-weight: 600;
   font-size: 18px;
 }
 
@@ -34,7 +34,7 @@ span {
 }
 
 .navbar.scrolled {
-  background-color: #6c7380;
+  background-color: #4d525c;
   transition: background-color 0.5s ease;
   box-shadow: 0px -10px 30px #272a31;
 }
@@ -109,5 +109,74 @@ span {
 }
 
 #blog a:hover {
-  color: #ffbb00  ;
+  color: #ffbb00;
+}
+
+#blog-detail .main-blog-info img {
+  float: none;
+}
+
+#blog-detail .main-blog-info span::before {
+  background-color: #41454d;
+  content: "";
+  top: 0px;
+  margin-bottom: 3px;
+  display: inline-block;
+  margin-right: 15px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+#blog-detail a {
+  text-decoration: none;
+  color: #666;
+}
+
+#blog-detail span {
+  color: #666;
+}
+
+#blog-detail a:hover {
+  color: #ffbb00;
+}
+
+.judul-post h4 {
+  color: #41454d;
+}
+
+/* footer */
+.main-footer-menu h3 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.main-footer-menu .main-logo-footer {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Roboto Slab", serif;
+}
+
+.main-footer-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-footer-menu a:hover {
+  color: #ffbb00;
+}
+
+.main-footer-menu ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.main-footer-menu ul li {
+  margin-bottom: 15px;
+}
+
+.main-footer-copy {
+  background-color: #0f1012;
+  color: white;
 }
