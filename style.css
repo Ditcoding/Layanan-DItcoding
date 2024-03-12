@@ -34,7 +34,7 @@ span {
 }
 
 .navbar.scrolled {
-  background-color: #4d525c;
+  background-color: #777e8d;
   transition: background-color 0.5s ease;
   box-shadow: 0px -10px 30px #272a31;
 }
@@ -177,6 +177,6 @@ span {
 }
 
 .main-footer-copy {
-  background-color: #0f1012;
+  background-color: #12120f;
   color: white;
 }
